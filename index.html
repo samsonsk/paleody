@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALEODY-SOLUTION</title>
+    <link rel="stylesheet" href= "css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="img/paleodyicon.png" type="image/icon type">
+
+</head>
+<body>
+    <header>
+   <div class="logotop"""><h1><img class="headlogo" src="img/logo.png" alt="#" width="150" height="50" position></h1><p class="slogan">Automatized your life</p></div>
+<nav>
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products & Services</a></li>
+    <li><a href="#">Why Us</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">T&C</a></li>
+   </ul>
+</nav>
+</header>
+<main>
+    <section class="intro">
+        <br><br><br>
+        <h2 ></h2>
+        <img src="#" alt="">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img class="slidepic" src="img/Slider1.png" style="width:50%">
+              <div class="text">We are PALEODY <span>Welcome!</span><p>We are born to challenge.</p></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img class="slidepic"src="img/Slider2.png" style="width:50%">
+              <div class="text">What We <span>Serve</span></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img class="slidepic"src="img/Slider3.png"" style="width:50%">
+              <div class="text">Our Experiance you can <span>Trust</span></div>
+            </div>
+
+            <div class = "dotss">
+              <br>
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+<script>let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }</script>
+    </section>
+
+    
+
+    <section class="pronser">
+        <h2 >Product & Services</h2>
+        <img src="#" alt="">
+
+     <div class="containerproduct">
+      <div class="ProductsProducts">
+        <img src="/img/product1.png" width="90" height="90">
+        <h3>Software Development</h3>
+          <p>We offer customized software solutions tailored to the specific
+             nature of your business. Our consultancy service helps you optimize your systems, 
+             ensuring they align with your business type and objectives. By personalizing your 
+             software, we help you cut costs, save time, and boost efficiency.</p>
+           <button>Learn More</button>
+      </div>
+      <div class="ProductsProducts">
+        <img src="/img/product2.png" width="90" height="90">
+        <h3>Networking Solution</h3>
+          <p>We specialize in designing tailored networking architecture, 
+            selecting the right network devices, and building efficient and cost-effective 
+            network infrastructures. Our services also include comprehensive network solution 
+            assessments, identifying and resolving performance issues, and troubleshooting slow 
+            connectivity problems to ensure your network operates smoothly and reliably.</p>
+           <button>Learn More</button>
+      </div>
+      <div class="ProductsProducts">
+        <img src="/img/product1.png" width="90" height="90">
+        <h3>Information Tecnology Solution</h3>
+          <p>We specialize in designing tailored networking architecture, 
+            selecting the right network devices, and building efficient and cost-effective 
+            network infrastructures. Our services also include comprehensive network solution 
+            assessments, identifying and resolving performance issues, and troubleshooting slow 
+            connectivity problems to ensure your network operates smoothly and reliably.</p>
+           <button>Learn More</button>
+      </div>
+      <div class="ProductsProducts">
+        <img src="/img/product1.png" width="90" height="90">
+        <h3>Storage Solution</h3>
+          <p>We specialize in designing tailored networking architecture, 
+            selecting the right network devices, and building efficient and cost-effective 
+            network infrastructures. Our services also include comprehensive network solution 
+            assessments, identifying and resolving performance issues, and troubleshooting slow 
+            connectivity problems to ensure your network operates smoothly and reliably.</p>
+           <button>Learn More</button>
+      </div>
+      <div class="ProductsProducts">
+        <img src="/img/product1.png" width="90" height="90">
+        <h3>High Performance Calulation</h3>
+          <p>We specialize in designing tailored networking architecture, 
+            selecting the right network devices, and building efficient and cost-effective 
+            network infrastructures. Our services also include comprehensive network solution 
+            assessments, identifying and resolving performance issues, and troubleshooting slow 
+            connectivity problems to ensure your network operates smoothly and reliably. </p>
+           <button>Learn More</button>
+      </div>
+       </div> 
+
+
+    </section>
+
+    <section class="About">
+        <h2 >About Us?</h2>
+        <img src="img/logoMono.png" width="200" height="60">
+        <p>"In recent decades, software development and ERP systems have played a crucial role in the rapid 
+          technological advancements of society, becoming the lifeblood and weapon of businesses. However, 
+          the complexity of these systems and the challenges of long-term planning often lead to high costs 
+          for enterprises. The birth of Paleody was designed to address these challenges."</p>
+    </section>
+
+
+
+
+
+
+</main>
+<footer>
+  <br>
+  <div class="container">
+    <div class="footercontainer">
+     <div><img class="footerlogo" src="img/logo.png" ></div>
+
+        <h1 class="companyregname">PALEODY SOLUTION (003620392-H) </h1><br>
+        <h1 class="addressfooter">Address:<br>H-G-12, Lorong Mahir 9,<br>Connauht Avenue,<br>56000 Kuala Lumpur </h1>
+
+    </div>
+  </div>
+  <br>
+  <DIV class="contactme"><a class="phoneW" href="https://wa.me/60178807998?text=Hi" alt="adadad">+60 017 8807998</a>
+  </DIV> 
+  <DIV class="contactme">paleody.com@gmail.com</DIV>
+  <div class="container">
+    <div class="footernav">
+      <h2></h2>
+      <ul>
+
+      </ul>
+    </div>
+  </div>
+  <br>
+<h1 class="copyrightcom">2024 Paleody Solution Copyright.</h1>
+<br>
+</footer>
+</body>
+</html>
