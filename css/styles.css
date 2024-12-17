@@ -22,6 +22,41 @@
   src: url('../font/AGENCYB.TTF')
 }
 
+
+
+/* Effect Animation START */
+
+@keyframes appear {
+   from {
+      opacity: 0;
+      scale: 0.5;
+   }
+
+   to {
+      opacity: 1;
+      scale: 1;
+   }
+
+ 
+  }
+
+  .ProductsProducts {
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+
+}
+
+.aboutcontainer {
+  animation: appear 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0%;
+
+}
+
+/* Effect Animation END */
+
+
 /*SLIDER PART START*********************************************/
 
 .slidepic {
@@ -62,7 +97,14 @@ p {
 }
 
 
+h2 {
+  font-size:40px;
+  font-family:AdmB;
+  text-align: center;
+  padding-top: 12px ;
+  
 
+}
 
 
 
@@ -75,7 +117,12 @@ header {
     background-color:rgb(255, 255, 255);
     width:10000px;
     height: 90px;
+    top: 0;
+    left: 0;
+    width: 100%;
     position:fixed;
+    z-index: 9999;
+    box-shadow: 0px 2px 10px;
 }
 
 .logotop {
@@ -174,14 +221,7 @@ li{
     font-family:;
    }
 
-    h2 {
-      font-size:30px;
-      font-family:AdmB;
-      text-align: center;
-      padding-top: 12px ;
-      
 
-}
 
     header ul {
 
@@ -228,6 +268,8 @@ li{
         background-repeat: no-repeat;
         background-size: auto;
         font-family: AdmB;
+        padding-bottom: 35px;
+      
     }
 /*Product Part START*********************************/
     .pronser {
@@ -246,7 +288,7 @@ li{
  max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  display: justify;
+  display:flow-root;
  
 
   gap: 10px;
@@ -255,6 +297,8 @@ li{
    display: inline-block;
    padding: 18px;
    text-align: center;
+   width: 400px;
+   top: 10px;
    margin: 25px,25px,25px,25px;
 }
 
@@ -286,6 +330,14 @@ li{
       font-family: AdmR;
       
       padding: 15px;
+     }
+
+     .aboutcontainer {
+      width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+  
+
      }
 /*About Part END*********************************/
 
