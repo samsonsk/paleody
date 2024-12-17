@@ -1,0 +1,446 @@
+
+@font-face {
+  font-family: AdmR;
+  src: url('../font/AgdasimaR.ttf')
+}
+
+@font-face {
+  font-family: AdmB;
+  src: url('../font/AgdasimaB.ttf')
+}
+@font-face {
+  font-family: RobotoT;
+  src: url('../font/Roboto-Thin.ttf')
+}
+
+@font-face {
+  font-family: AGFBR;
+  src: url('../font/AGENCYR.TTF')
+}
+@font-face {
+  font-family: AGFBR;
+  src: url('../font/AGENCYB.TTF')
+}
+
+
+
+/* Effect Animation START */
+
+@keyframes appear {
+   from {
+      opacity: 0;
+      scale: 0.5;
+   }
+
+   to {
+      opacity: 1;
+      scale: 1;
+   }
+
+ 
+  }
+
+  .ProductsProducts {
+    animation: appear 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+
+}
+
+.aboutcontainer {
+  animation: appear 1s linear;
+  animation-timeline: view();
+  animation-range: entry 0%;
+
+}
+
+/* Effect Animation END */
+
+
+/*SLIDER PART START*********************************************/
+
+.slidepic {
+  float:right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+
+
+/*SLIDER PART END*********************************************/
+
+button {
+  border-style: hidden;
+  background-color: #2C3A53;
+  
+  color: #ffffff;
+  font-family: AdmR;
+  font-size: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+* { 
+ padding: 0;
+ margin: 0px;
+
+
+}
+
+p {
+  font-size: 25px;
+  font-family: AdmR;
+}
+
+
+h2 {
+  font-size:40px;
+  font-family:AdmB;
+  text-align: center;
+  padding-top: 12px ;
+  
+
+}
+
+
+
+h3 {
+  font-family: AdmB;
+  font-size: 30px;
+  }
+
+header {
+    background-color:rgb(255, 255, 255);
+    width:10000px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position:fixed;
+    z-index: 9999;
+    box-shadow: 0px 2px 10px;
+}
+
+.logotop {
+  margin-left: 120px;
+  margin-top: 8px;
+}
+.slogan {
+  margin-top: -5px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+li{
+
+  display:inline;
+  color:rgb(0, 0, 0);
+  font-family: AdmB;
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  margin-right: 2vw;
+  height: 20px;
+  width: 100% ;
+  
+}
+/*FOOTER PART START*********************************************/
+.footerlogo {
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+
+  
+}
+
+
+.companyregname {
+  font-family: AdmB;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10px;
+  }
+
+  .addressfooter {
+    font-family: AdmB;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+    }
+
+   .copyrightcom {
+    font-family: RobotoT;
+    font-size: 13px;
+    margin-left: 10px;
+    text-align: center;
+
+   } 
+
+    .contactme {
+    font-family: AdmB;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: center;
+   }
+
+   .footerli{
+
+    display:flex;
+    color:rgb(255, 255, 255);
+    font-family: AdmB;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+    margin-right: 2vw;
+    height: 20px;
+    width: 100% ;
+    
+  }
+
+.footernav.footercontainer {
+  display: flex;
+  
+
+}
+
+.footercontainer{
+    margin-left: 15px;
+
+
+  }
+
+
+ 
+/*FOOTER PART END*********************************************/
+   h1 {
+    font-size: small;
+    font-family:;
+   }
+
+
+
+    header ul {
+
+        position:fixed;
+        right:5vw;
+        top:0;
+        line-height: 60px;
+    }
+
+    header h1.img{
+         left: 100px;
+        
+
+
+    }
+    header a {
+        color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+
+    }
+
+    header a:hover {
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0);
+    }
+
+        .phone a {
+        color: rgba(0, 0, 0, 0);
+        text-decoration: none;
+
+    }
+
+    .phone a:hover {
+        text-decoration: underline;
+        color: rgba(0, 0, 0, 0);
+    }
+
+
+    .intro {
+        background-color: #2C3A53;
+        color: aqua;
+        height: 70vh;
+        background-image: url("img/1111.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-family: AdmB;
+        padding-bottom: 35px;
+      
+    }
+/*Product Part START*********************************/
+    .pronser {
+        background-color: #ffffff;
+        color: #2C3A53;
+        height: auto;
+        background-image: url("img/1111.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        font-family: AdmB;
+        font-size: 35px;
+        padding-bottom: 35px;
+    }
+
+.containerproduct   {
+ max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display:flow-root;
+ 
+
+  gap: 10px;
+}
+.ProductsProducts {
+   display: inline-block;
+   padding: 18px;
+   text-align: center;
+   width: 400px;
+   top: 10px;
+   margin: 25px,25px,25px,25px;
+}
+
+
+
+/*Product Part END*********************************/
+    .WhyUs {
+        background-color: #2C3A53;
+        color: #ffffff;
+        height: auto;
+        background-image: url("img/1111.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+/*About Part START*********************************/
+
+    .About {
+        background-color: #2C3A53;
+        color: rgb(255, 255, 255);
+        height: auto;
+        background-image: url("img/1111.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        text-align: center;
+        padding: 25px;
+    }
+    h4 {
+      font-size: 25px;
+      font-family: AdmR;
+      
+      padding: 15px;
+     }
+
+     .aboutcontainer {
+      width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+  
+
+     }
+/*About Part END*********************************/
+
+    /*SLIDER CONTROL START*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  font-family: AdmB;
+
+  padding: 8px 12px;
+  position: flex;
+  bottom: -25px;
+  width: 100%;
+  text-align: left;
+}
+span {
+  color: #60ff60;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dotss {
+  position: absolute;
+  margin: -4355px 150px 75px 100px;
+
+}
+.dot {
+  
+  height: 15px;
+  width: 15px;
+  position: flex;
+  margin: 110 2px;
+  background-color: #a9a7ff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #8500a7;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+
+
+
+
+    /*SLIDER CONTROL END*/
