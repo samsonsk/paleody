@@ -237,7 +237,7 @@ padding-top: -15px;
 .accordion {
   border-style: hidden;
   background-color: #2C3A53;
-  
+  box-shadow: 0px 2px 10px;
   color: #ffffff;
   font-family: AdmR;
   font-size: 25px;
@@ -578,7 +578,7 @@ li{
 }
 
 .containerLogo {
-  background-color: #2C3A53;
+  background-color: #ffffff;
 }
 .carousel-item {
   background-color: #2C3A53;
@@ -631,6 +631,9 @@ li{
   display: inline-block;
   padding: 10px 15px;
   background-color: #00bbf0;
+  font-family: AdmR;
+  box-shadow: 0px 2px 10px;
+  font-size: 25px;
   color: #000000;
   border-radius: 0;
   -webkit-transition: all 0.3s;
@@ -640,6 +643,7 @@ li{
 
 .slider_section .detail-box .btn-box .btn1:hover {
   background-color: #93ff85;
+  text-decoration: none;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
