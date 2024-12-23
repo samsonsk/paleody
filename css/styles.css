@@ -131,7 +131,7 @@ padding-top: -15px;
   
 }
 
-@media(max-width: 1050px) {
+@media(max-width: 950px) {
     .hideOnMobile{
       display: none;
     }
@@ -754,10 +754,13 @@ position:255px ;
 
 /* PAGE CONTACT US************START*/
 .cointainerSubmitForm {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
 
@@ -770,7 +773,7 @@ position:255px ;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  
+  text-align: center;
   max-width: 550px;
   padding: auto;
   
@@ -807,22 +810,29 @@ label {
 input, select, textarea {
   width: 100%;
   padding: 8px;
+  background-color:#e4e4e4;
   margin-bottom: 15px;
   border: 1px solid hsl(0, 0%, 52%);
   border-radius: 4px;
   font-size: 14px;
+  
 }
+ input:focus {
+ color: #2C3A53;
+}
+
 button {
   width: 100%;
   padding: 10px;
   background-color:#9c9c9c;
   border-color: #4c00ff;
-  border-radius: 15px;
+  border: 5px;
+  
   color: white;
-  border: none;
-  border-radius: 4px;
+
+ 
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
 }
 button:hover {
   background-color:#8500a7;
