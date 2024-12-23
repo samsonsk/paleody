@@ -84,7 +84,10 @@ nav a {
 
 nav a:hover {
     color: #8500a7;
+    text-decoration: none;
 }
+
+
 
 .sidebar {
   display: none;
@@ -140,7 +143,9 @@ padding-top: -15px;
   .sidebar
     width: 100%;
   }
-}
+
+
+
   /* Navigation Bar END */
 
 
@@ -162,6 +167,7 @@ padding-top: -15px;
 .active, .accordion:hover {
   background-color: #07006d;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -219,19 +225,6 @@ padding-top: -15px;
 
 
 
-/*SLIDER PART START*********************************************/
-
-.slidepic {
-  float:right;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-
-
-
-/*SLIDER PART END*********************************************/
 
 /*AccordianButton*/
 .accordion {
@@ -366,21 +359,22 @@ li{
 
 .companyregname {
   font-family: AdmB;
-  font-size: 18px;
+  font-size: 22px;
   text-align: center;
   margin-left: 10px;
   }
 
   .addressfooter {
     font-family: AdmB;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 10px;
     text-align: center;
     }
 
    .copyrightcom {
-    font-family: RobotoT;
-    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 15px;
+    font-weight: bold;
     margin-left: 10px;
     text-align: center;
 
@@ -388,7 +382,7 @@ li{
 
     .contactme {
     font-family: AdmB;
-    font-size: 15px;
+    font-size:20px;
     margin-left: 10px;
     text-align: center;
    }
@@ -503,11 +497,19 @@ li{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
-
- 
-
-  gap: 10px;
+    gap: 10px;
 }
+ .oterlogo {
+
+
+margin: center;
+margin-bottom: 40px;
+
+position:255px ;
+}
+
+
+
 .ProductsProducts {
    display: inline-block;
    padding: 18px;
@@ -573,8 +575,10 @@ li{
   padding: 45px 0 145px 0;
   background-color:#2C3A53;
   
- 
-  
+}
+
+.btn-box {
+  display: none;
 }
 
 .containerLogo {
@@ -601,7 +605,10 @@ li{
 }
 
 .slider_section .detail-box h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family: AdmB;
+  text-shadow: 2px 2px #000000;
+  letter-spacing: 1px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -726,3 +733,98 @@ li{
   background-color: #6e6e6e;
 }
 /* slider section **********************************END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE CONTACT US************START*/
+.cointainerSubmitForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.phonemail {
+  padding: 20px;
+  padding-left:  20px; 
+  padding-right:  20px; 
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  max-width: 550px;
+  padding: auto;
+  
+
+}
+
+.PageContactUs {
+  height: auto;
+  font-family: AdmR;
+  font-size: 45px;
+  padding: 100px;
+  padding-left:  20px; 
+  padding-right:  20px; 
+  color:#ffffff;
+  background-color: #2C3A53;
+}
+
+
+form {
+  max-width: 550px;
+  font-size: 25px;
+  margin: auto;
+  padding: 20px;
+  color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:#2C3A53
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid hsl(0, 0%, 52%);
+  border-radius: 4px;
+  font-size: 14px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color:#9c9c9c;
+  border-color: #4c00ff;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color:#8500a7;
+}
+/* PAGE CONTACT US************END*/
