@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALEODY-SOLUTION</title>
+    <link rel="stylesheet" href= "css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="img/paleodyicon.png" type="image/icon type">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+</head>
+<body>
+    <header>
+   <div class="logotop"""><h1><img class="headlogo" src="img/logo.png" alt="#" width="150" height="50" position></h1><p class="slogan">Automatized your life</p></div>
+<nav>
+   <ul class="sidebar">
+    <li class="hideiconmenubar"onclick=hideSidebar()><a href="#""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+    <li onclick=hideSidebar()><a href="index.html">Home</a></li>
+    <li onclick=hideSidebar()><a href="#Product&Service">Products & Services</a></li>
+    <li onclick=hideSidebar()><a href="#">About Us</a></li>
+    <li onclick=hideSidebar()><a href="contact.html">Contact Us</a></li>
+
+   </ul>
+   <ul>
+    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+    <li class="hideOnMobile"><a href="#">Products & Services</a></li>
+    <li class="hideOnMobile"><a href="#">About Us</a></li>
+    <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+    <li id="Mbutton" class="menu-button" onclick=showSidebar()> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="undefined"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+   </ul>
+</nav>
+<script>
+  function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  function hideSidebar() {
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+
+</script>
+</header>
+<main>
+
+  <section class="PageContactUs">
+  
+    <h2>Contact Us</h2><BR><BR>
+    <div class="cointainerSubmitForm">
+      <div class="phonemail"> 
+        <div><img src="img/whatapp.png" width="50" height="50"></div>
+        <div><h2>+60 17 8807998</h2></div>
+      </div>
+      <div class="formsubmitpanel">
+    <form id="submissionForm">
+      <h2>Submit form for Inquiry</h2><br>
+      <label for="companyName">Company Name</label>
+      <input type="text" id="companyName" name="companyName" placeholder="Enter your company name" required>
+  
+      <label for="yourName">Your Name</label>
+      <input type="text" id="yourName" name="yourName" placeholder="Enter your name" required>
+  
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+  
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="\d{10,}" required>
+  
+      <label for="industry">Industry</label>
+      <select id="industry" name="industry" required>
+          <option value="">Select an industry</option>
+          <option value="technology">Technology</option>
+          <option value="finance">Finance</option>
+          <option value="healthcare">Healthcare</option>
+          <option value="education">Education</option>
+          <option value="others">Others</option>
+      </select>
+  
+      <label for="remark">Remark</label>
+      <textarea id="remark" name="remark" placeholder="Enter your remarks" rows="4"></textarea>
+  
+      <button type="submit">Submit</button>
+  </form>
+</div>
+</div>
+  </section>
+
+
+</main>
+<footer>
+  <br>
+  <div class="containerLogo">
+    <div class="footercontainer">
+     <div><img class="footerlogo" src="img/logo.png" ></div>
+
+        <h1 class="companyregname">PALEODY SOLUTION (003620392-H) </h1><br>
+        <h1 class="addressfooter">Address:<br>H-G-12, Lorong Mahir 9,<br>Connauht Avenue,<br>56000 Kuala Lumpur </h1>
+
+    </div>
+  </div>
+  <br>
+  <DIV class="contactme"><a class="phoneW" href="https://wa.me/60178807998?text=Hi" alt="adadad">+60 17 8807998</a>
+  </DIV> 
+  <DIV class="contactme">paleody.com@gmail.com</DIV>
+  <div class="container">
+    <div class="footernav">
+      <h2></h2>
+      <ul>
+
+      </ul>
+    </div>
+  </div>
+  <br>
+<h1 class="copyrightcom">2024 Paleody Solution Copyright.</h1>
+<br><h1 class="copyrightcom">Term & Services</h1><br><br>
+
+</footer>
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
