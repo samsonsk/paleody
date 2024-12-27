@@ -155,6 +155,7 @@ padding-top: -15px;
   color: #444;
   cursor: pointer;
   padding: 18px;
+  display: inline;
   border-radius: 15px;
   width: 100%;
   text-align: left;
@@ -347,73 +348,77 @@ li{
 
 
 /*FOOTER PART START*********************************************/
+
+footer {
+  background-color: #2e2e2e;
+}
+
 .footerlogo {
   display:flex;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 200px;
 
   
 }
+.footertitle {
+color: #ffffff;
+font-family: AdmB;
+font-size: 20px;
+font-weight: bold;
 
+}
 
-.companyregname {
+.footercomptitle {
   font-family: AdmB;
-  font-size: 22px;
-  text-align: center;
-  margin-left: 10px;
-  }
-
-  .addressfooter {
-    font-family: AdmB;
-    font-size: 20px;
-    margin-left: 10px;
-    text-align: center;
-    }
-
-   .copyrightcom {
-    font-family:Arial, Helvetica, sans-serif
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
-    text-align: center;
-
-   } 
-
-    .contactme {
-    font-family: AdmB;
-    font-size:20px;
-    margin-left: 10px;
-    text-align: center;
-   }
-
-   .footerli{
-
-    display:flex;
-    color:#2C3A53;;
-    font-family: AdmB;
-    font-weight: 700;
-    font-size: 20px;
-    font-style: normal;
-    margin-right: 2vw;
-    height: 20px;
-    width: 100% ;
-    
-  }
-
-.footernav.footercontainer {
-  display: flex;
-  
-
+font-size: 30px;
+font-weight: 285px;
+color: #ffffff;
 }
 
-.footercontainer{
+.footertext {
+  font-family: AdmR;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+
+
+.FooterCointainer{
+    padding: 50px;
     margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    gap:55px
+}
 
 
+
+ 
+  .Panel_Logo {
+    width:300px;
+    justify-content: center ;
+    align-content: center;
+    text-align: center;
   }
 
+  .panel_copyright {
+   
+    font-family: AdmR;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+  }
 
+  .copyrightcom {
+    font-size: large;
+    color: #ffffff;
+  }
  
 /*FOOTER PART END*********************************************/
    h1 {
@@ -741,7 +746,10 @@ position:255px ;
 
 
 
-
+.xixi {
+  filter: brightness(0);
+  
+}
 
 
 
@@ -759,7 +767,10 @@ position:255px ;
   margin-right: auto;
   display:flex;
   flex-wrap: wrap;
-  justify-content: center;
+  align-items: first baseline;
+  
+  
+  
 
 }
 
